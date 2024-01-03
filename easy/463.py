@@ -11,7 +11,8 @@ class Solution:
         for i in range(len(grid)):
             for j in range(len(grid[i])):
                 if grid[i][j] == 1:
-                    # Check the cell's neighbors and add to perimeter accordingly
+                    # Check the cell's neighbors and
+                    # add to perimeter accordingly
                     if i == 0 or grid[i-1][j] == 0:
                         perimeter += 1
                     if j == 0 or grid[i][j-1] == 0:
